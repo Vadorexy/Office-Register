@@ -236,10 +236,6 @@
 
 //Percentage Exercise 3
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner;
-
 //class Percentage {
 //    public static void main(String[] args) {
 //        System.out.println(computePercentage(10.5, 11.5));
@@ -334,21 +330,6 @@ import java.util.Scanner;
 //        }
 //    }
 //}
-//
-//public class Main {
-//    static void checkAge(int age) {
-//      if (age < 18) {
-//          throw new ArithmeticException("Access denied - You must be at least 18 years old. ");
-//      }
-//      else {
-//          System.out.println("Access granted. You're old enough!. ");
-//      }
-//    }
-//
-//    public static void main(String[] args) {
-//     checkAge(20);
-//    }
-//}
 
 //import java.util.regex.Matcher;
 //import java.util.regex.Pattern;
@@ -413,70 +394,31 @@ import java.util.Scanner;
 //        }; number.forEach(method);
 //    }
 
-import java.util.Scanner;
 //public class Main {
-//    public static void main(String a[]) {
-//        Scanner s=new Scanner(System.in);
-//        int years;
-//        double savings;
-//        System.out.println(" Number of years the user has until retirement");
-//        years=s.nextInt();
-//        while(years<=0)
-//        {
-//
-//            System.out.println(" Please enter a valid number");
-//            years=s.nextInt();
-//        }
-//        System.out.println(" Enter amount of money you can save anually");
-//        savings=s.nextDouble();
-//        while(savings<=0)
-//        {
-//
-//            System.out.println(" Please enter a valid number");
-//            savings=s.nextDouble();
-//        }
-//        System.out.println("Total savings after "+years+ "years = "+savings*years);
+
+//    private String name;
+
+//    public Main(String name) {
+//        this.name = name;
 //    }
 //
+//    public String getName() {
+//        return name;
+//    }
 //
-//public class Main {
 //    public static void main(String[] args) {
+//        System.out.println("Hello There?");
 //
-//        int num;
+//        Main main = new Main("Wisdom");
 //
-//        int result;
-//
-//        Scanner input = new Scanner(System.in);
-//
-//        System.out.println("Please enter an even number or 999 to exit: ");
-//
-//        num = input.nextInt();
-//
-//        result = num % 2;
-//
-//        while (num != 999) {
-//
-//            while (result != 0) {
-//
-//                System.out.println(num + " is not an even number");
-//
-//                System.out.print("Please enter an even numbern");
-//
-//                num = input.nextInt();
-//
-//                result = num % 2;
-//
-//            }
-//
-//            System.out.println("Good job!");
-//
-//            System.out.print("Please enter an even number or 999 to exit... ");
-//
-//            num = input.nextInt();
-//
-//            result = num % 2;
-//
-//        }
+//        System.out.println(main.getName());
 //    }
 //}
 
+
+/*public class Main {
+    public static void main(String[] args) {
+        String s = "My name is Wisdom";
+        System.out.println(s);
+    }
+}*/
